@@ -2,16 +2,29 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000448
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.3/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique: []
+  numberOfBytes: 262335056
+  numberOfFiles: 1
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
-citation: Silkuniene, Giedre (2023) Action spectra and mechanisms of (in) efficiency
-  of bipolar electric pulses at electroporation (Version draft) [Data set]. DANDI
-  archive. https://dandiarchive.org/dandiset/000448/draft
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured: []
+citation: Silkuniene, Giedre; Kim, Vitalii; Semenov, Iurii; Pakhomov, Andrei (2023)
+  Action spectra and mechanisms of (in) efficiency of bipolar electric pulses at electroporation
+  (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000448/draft
 contributor:
 - affiliation: []
   email: giedre.silkuniene@gmail.com
@@ -19,6 +32,21 @@ contributor:
   name: Silkuniene, Giedre
   roleName:
   - dcite:ContactPerson
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Kim, Vitalii
+  roleName: []
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Semenov, Iurii
+  roleName: []
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Pakhomov, Andrei
+  roleName: []
   schemaKey: Person
 dateCreated: '2023-02-17T18:25:05.767450+00:00'
 description: The dataset includes a schematic preview of experimental procedures,
@@ -28,16 +56,22 @@ description: The dataset includes a schematic preview of experimental procedures
   and correlated to local electric field strength.  Membrane potential kinetics at
   the cathode- and anode-facing poles of a cell were evaluated with FluoVolt dye using
   a strobe imaging system synchronized with nsEP exposure. Supported by NIH 1R21EY034258
+ethicsApproval: []
 id: DANDI:000448/draft
 identifier: DANDI:000448
+keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000448/versions/draft/assets/
 name: Action spectra and mechanisms of (in) efficiency of bipolar electric pulses
   at electroporation
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000448/draft
 version: draft
+wasGeneratedBy: []
