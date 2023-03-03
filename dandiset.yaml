@@ -7,24 +7,12 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  approach: []
-  dataStandard:
-  - identifier: RRID:SCR_015242
-    name: Neurodata Without Borders (NWB)
-    schemaKey: StandardsType
-  measurementTechnique: []
-  numberOfBytes: 262335056
+  numberOfBytes: 1
   numberOfFiles: 1
-  numberOfSubjects: 1
   schemaKey: AssetsSummary
-  species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
-    name: Mus musculus - House mouse
-    schemaKey: SpeciesType
-  variableMeasured: []
 citation: Silkuniene, Giedre; Kim, Vitalii; Semenov, Iurii; Pakhomov, Andrei (2023)
   Action spectra and mechanisms of (in) efficiency of bipolar electric pulses at electroporation
-  (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000448/draft
+  (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - affiliation: []
   email: giedre.silkuniene@gmail.com
@@ -49,6 +37,7 @@ contributor:
   roleName: []
   schemaKey: Person
 dateCreated: '2023-02-17T18:25:05.767450+00:00'
+datePublished: '2023-03-03T18:22:20.955791+00:00'
 description: The dataset includes a schematic preview of experimental procedures,
   experiment temperature increase evaluation, and raw image sets of the experiments
   on monolayers of endothelial BPAE and CHO cells. Cells were exposed to various electroporation
@@ -56,6 +45,7 @@ description: The dataset includes a schematic preview of experimental procedures
   and correlated to local electric field strength.  Membrane potential kinetics at
   the cathode- and anode-facing poles of a cell were evaluated with FluoVolt dye using
   a strobe imaging system synchronized with nsEP exposure. Supported by NIH 1R21EY034258
+doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
 id: DANDI:000448/draft
 identifier: DANDI:000448
@@ -67,6 +57,18 @@ manifestLocation:
 name: Action spectra and mechanisms of (in) efficiency of bipolar electric pulses
   at electroporation
 protocol: []
+publishedBy:
+  endDate: '2023-03-03T18:22:20.955791+00:00'
+  id: urn:uuid:2bb439cf-fd27-4fd3-9d1f-a2595ee40584
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-03-03T18:22:20.955791+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:c0e9b200-2a78-4172-8a07-fee7ec92cc62
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
@@ -74,4 +76,9 @@ schemaVersion: 0.6.3
 studyTarget: []
 url: https://dandiarchive.org/dandiset/000448/draft
 version: draft
-wasGeneratedBy: []
+wasGeneratedBy:
+- identifier: NIH 1R21EY034258
+  name: Targeted Neuromodulation by Nanosecond Pulsed Electric Fields
+  schemaKey: Project
+  used: []
+  wasAssociatedWith: []
