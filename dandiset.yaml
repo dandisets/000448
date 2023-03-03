@@ -25,7 +25,7 @@ assetsSummary:
 citation: Silkuniene, Giedre; Kim, Vitalii; Semenov, Iurii; Pakhomov, Andrei (2023)
   Time kinetics of the membrane potential at the cathode- and anode-facing poles of
   a cell induced by a train of 5 pulses at 833 kHz (Version draft) [Data set]. DANDI
-  archive. https://dandiarchive.org/dandiset/000448/draft
+  archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - affiliation: []
   email: giedre.silkuniene@gmail.com
@@ -36,21 +36,28 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 - affiliation: []
+  identifier: 0000-0003-0699-5582
   includeInCitation: true
   name: Kim, Vitalii
-  roleName: []
+  roleName:
+  - dcite:Researcher
   schemaKey: Person
 - affiliation: []
+  identifier: 0000-0002-0302-1355
   includeInCitation: true
   name: Semenov, Iurii
-  roleName: []
+  roleName:
+  - dcite:Researcher
   schemaKey: Person
 - affiliation: []
+  identifier: 0000-0003-3816-3860
   includeInCitation: true
   name: Pakhomov, Andrei
-  roleName: []
+  roleName:
+  - dcite:ProjectLeader
   schemaKey: Person
 dateCreated: '2023-02-17T18:25:05.767450+00:00'
+datePublished: '2023-03-03T23:11:34.939977+00:00'
 description: Time-lapse recordings for the investigation of the relationship between
   the electroporation efficiency of nsEP and changes in the transmembrane potential
   (TMP). A strobe imaging synchronized with nsEP exposure was used. This allowed studying
@@ -64,6 +71,7 @@ description: Time-lapse recordings for the investigation of the relationship bet
   nsEP exposure. Multiple nsEP and laser flash combinations with programmed time interval
   increments or decrements were delivered to capture the time course of TMP during
   and after nsEP. Supported by NIH 1R21EY034258
+doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
 id: DANDI:000448/draft
 identifier: DANDI:000448
@@ -75,6 +83,18 @@ manifestLocation:
 name: Time kinetics of the membrane potential at the cathode- and anode-facing poles
   of a cell induced by a train of 5 pulses at 833 kHz
 protocol: []
+publishedBy:
+  endDate: '2023-03-03T23:11:34.939977+00:00'
+  id: urn:uuid:b8fabdbc-579a-4752-a8c1-b1e5338c0f90
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-03-03T23:11:34.939977+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:a2377b97-2daf-4ba2-96ac-bc4b06e9ca4c
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
