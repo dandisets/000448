@@ -7,24 +7,9 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  approach: []
-  dataStandard:
-  - identifier: RRID:SCR_015242
-    name: Neurodata Without Borders (NWB)
-    schemaKey: StandardsType
-  measurementTechnique: []
-  numberOfBytes: 2028554688
-  numberOfFiles: 6
-  numberOfSubjects: 4
+  numberOfBytes: 0
+  numberOfFiles: 0
   schemaKey: AssetsSummary
-  species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10029
-    name: Cricetulus griseus - Cricetulus aureus
-    schemaKey: SpeciesType
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
-    name: Homo sapiens - Human
-    schemaKey: SpeciesType
-  variableMeasured: []
 citation: Silkuniene, Giedre; Kim, Vitalii; Semenov, Iurii; Pakhomov, Andrei (2023)
   Time kinetics of the membrane potential at the cathode- and anode-facing poles of
   a cell induced by a train of 5 pulses at 833 kHz (Version draft) [Data set]. DANDI
@@ -60,7 +45,7 @@ contributor:
   - dcite:ProjectLeader
   schemaKey: Person
 dateCreated: '2023-02-17T18:25:05.767450+00:00'
-datePublished: '2023-03-09T17:30:43.506761+00:00'
+datePublished: '2023-03-14T16:59:59.367640+00:00'
 description: Time-lapse recordings for the investigation of the relationship between
   the electroporation efficiency of nsEP and changes in the transmembrane potential
   (TMP). A strobe imaging synchronized with nsEP exposure was used. This allowed studying
@@ -87,13 +72,13 @@ name: Time kinetics of the membrane potential at the cathode- and anode-facing p
   of a cell induced by a train of 5 pulses at 833 kHz
 protocol: []
 publishedBy:
-  endDate: '2023-03-09T17:30:43.506761+00:00'
-  id: urn:uuid:b4b3a894-6973-4f6f-be6f-5c93062c9b63
+  endDate: '2023-03-14T16:59:59.367640+00:00'
+  id: urn:uuid:7aacc3ea-f484-4ae2-b4e2-83bc55b9fc47
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-03-09T17:30:43.506761+00:00'
+  startDate: '2023-03-14T16:59:59.367640+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:73679261-faea-47a3-a0a8-e0b16b6b69dc
+  - id: urn:uuid:a32382ce-6853-4242-bd99-4d10e415ebca
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
