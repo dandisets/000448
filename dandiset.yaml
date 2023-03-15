@@ -60,13 +60,12 @@ description: Time-lapse recordings for the investigation of the relationship bet
   studying the nanosecond kinetics of TMP charging and relaxation, which is the primary
   effect of nsEP that rapidly charges the plasma membrane. The methodology involved
   pulsed laser fluorescence microscopy with voltage-sensitive FluoVolt dye-loaded
-  cells that respond to TMP changes within nanoseconds. This dye has a high sensitivity
-  of about 10 % deltaF/F per 100 mV. During the study, a single short pulse laser
-  flash is delivered at a precise time interval before, during, or after nsEP exposure.
-  The camera shutter opens in advance of and closes after the laser flash, capturing
-  one TMP image per nsEP exposure. Multiple nsEP and laser flash combinations with
-  programmed time interval increments or decrements were delivered to capture the
-  time course of TMP during and after nsEP. Supported by NIH 1R21EY034258
+  cells that respond to TMP changes within nanoseconds. FluoVolt has a high sensitivity
+  of about 10 % deltaF/F per 100 mV. During the imaging, a single short pulse laser
+  flash is delivered at a precise time interval (addition of 25ns in each frame) before,
+  during, or after nsEP exposure. The camera shutter opens in advance of and closes
+  after the laser flash, capturing one TMP image per nsEP exposure. Supported by NIH
+  1R21EY034258
 ethicsApproval: []
 id: DANDI:000448/draft
 identifier: DANDI:000448
