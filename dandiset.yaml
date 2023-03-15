@@ -28,7 +28,7 @@ citation: Silkuniene, Giedre; Kim, Vitalii; Semenov, Iurii; Pakhomov, Andrei (20
   archive. https://dandiarchive.org/dandiset/000448/draft
 contributor:
 - affiliation: []
-  email: giedre.silkuniene@gmail.com
+  email: gsilkuni@odu.edu
   identifier: 0000-0001-8436-9718
   includeInCitation: true
   name: Silkuniene, Giedre
@@ -39,22 +39,19 @@ contributor:
   identifier: 0000-0003-0699-5582
   includeInCitation: true
   name: Kim, Vitalii
-  roleName:
-  - dcite:Researcher
+  roleName: []
   schemaKey: Person
 - affiliation: []
   identifier: 0000-0002-0302-1355
   includeInCitation: true
   name: Semenov, Iurii
-  roleName:
-  - dcite:Researcher
+  roleName: []
   schemaKey: Person
 - affiliation: []
   identifier: 0000-0003-3816-3860
   includeInCitation: true
   name: Pakhomov, Andrei
-  roleName:
-  - dcite:ProjectLeader
+  roleName: []
   schemaKey: Person
 dateCreated: '2023-02-17T18:25:05.767450+00:00'
 description: Time-lapse recordings for the investigation of the relationship between
