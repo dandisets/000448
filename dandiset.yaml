@@ -58,7 +58,7 @@ contributor:
   includeInCitation: false
   name: National Institutes of Health
   roleName:
-  - dcite:FundingAcquisition
+  - dcite:Funder
   schemaKey: Organization
 dateCreated: '2023-02-17T18:25:05.767450+00:00'
 description: Time-lapse recordings for the investigation of the relationship between
