@@ -53,6 +53,13 @@ contributor:
   name: Pakhomov, Andrei
   roleName: []
   schemaKey: Person
+- awardNumber: 1R21EY034258
+  contactPoint: []
+  includeInCitation: false
+  name: National Institutes of Health
+  roleName:
+  - dcite:FundingAcquisition
+  schemaKey: Organization
 dateCreated: '2023-02-17T18:25:05.767450+00:00'
 description: Time-lapse recordings for the investigation of the relationship between
   the electroporation efficiency of nsEP and changes in the transmembrane potential
