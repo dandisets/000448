@@ -61,6 +61,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2023-02-17T18:25:05.767450+00:00'
+datePublished: '2023-04-21T18:44:20.183082+00:00'
 description: Time-lapse recordings for the investigation of the relationship between
   the electroporation efficiency of nsEP and changes in the transmembrane potential
   (TMP). A strobe imaging synchronized with nsEP exposure was used.  This allowed
@@ -84,6 +85,18 @@ manifestLocation:
 name: Time kinetics of the membrane potential at the cathode- and anode-facing poles
   of a cell induced by a train of 5 pulses at 833 kHz
 protocol: []
+publishedBy:
+  endDate: '2023-04-21T18:44:20.183082+00:00'
+  id: urn:uuid:f979aef8-6ace-46b7-83c7-b08b7be41619
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-04-21T18:44:20.183082+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:7a642e20-aaed-4620-96a3-a85c533fb3ae
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - name: Action spectra and mechanisms of (in) efficiency of bipolar electric pulses
     at electroporation
