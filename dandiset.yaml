@@ -24,8 +24,8 @@ assetsSummary:
   variableMeasured: []
 citation: Silkuniene, Giedre; Kim, Vitalii; Semenov, Iurii; Pakhomov, Andrei (2023)
   Time kinetics of the membrane potential at the cathode- and anode-facing poles of
-  a cell induced by a train of 5 pulses at 833 kHz (Version draft) [Data set]. DANDI
-  archive. https://dandiarchive.org/dandiset/000448/draft
+  a cell induced by a train of 5 pulses at 833 kHz (Version 0.230421.1844) [Data set].
+  DANDI archive. https://doi.org/10.48324/dandi.000448/0.230421.1844
 contributor:
 - affiliation: []
   email: gsilkuni@odu.edu
@@ -74,14 +74,15 @@ description: Time-lapse recordings for the investigation of the relationship bet
   during, or after nsEP exposure. The camera shutter opens in advance of and closes
   after the laser flash, capturing one TMP image per nsEP exposure. Supported by NIH
   1R21EY034258
+doi: 10.48324/dandi.000448/0.230421.1844
 ethicsApproval: []
-id: DANDI:000448/draft
+id: DANDI:000448/0.230421.1844
 identifier: DANDI:000448
 keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000448/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000448/0.230421.1844/assets.yaml
 name: Time kinetics of the membrane potential at the cathode- and anode-facing poles
   of a cell induced by a train of 5 pulses at 833 kHz
 protocol: []
@@ -107,8 +108,8 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000448/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000448/0.230421.1844
+version: 0.230421.1844
 wasGeneratedBy:
 - identifier: R21EY034258
   name: Targeted Neuromodulation by Nanosecond Pulsed Electric Fields
